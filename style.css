@@ -1,0 +1,294 @@
+/* Basic reset and margin/padding removal */
+body, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the navbar*/
+.navbar {
+  background-color: #2e2e2e;
+  font-family: "Montserrat";
+  color: #fff;
+  margin: 0;
+  z-index: 1000 /* Ensures ;the navbar stays on top of other content */;
+  display: flex;
+  gap: 600px;
+}
+
+.home-bar {
+
+  color: #708090;
+  background-color: #708090;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 3px 27px;
+  border: 2px solid #708090;
+  border-radius: 3px; 
+  transition: color 0.3s, border-color 0.3s; 
+}
+
+.profile-bar {
+  color: #fff;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 3px 27px; 
+  border: 2px solid #fff; 
+  border-radius: 3px; 
+  transition: color 0.3s, border-color 0.3s; 
+}
+
+.contact-bar {
+  color: #fff;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 3px 27px; 
+  border: 2px solid #fff; 
+  border-radius: 3px; 
+  transition: color 0.3s, border-color 0.3s; 
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around; 
+  padding: 10px 0;
+
+}
+
+.navbar-menu li {
+  margin: 0 15px; 
+
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s; 
+}
+
+a.profile-bar {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s; 
+}
+
+a.contact-bar {
+  border: #fff;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s; 
+}
+
+.navbar-menu a:hover {
+  color: #ccc; 
+}
+
+/*image*/
+img {
+  width: 100px;
+}
+.navbar{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+/* Style for main content */
+main {
+  padding:20px;
+}
+
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #ddd; /* Light border for sections */
+}
+
+.home {
+  font-style: "Vidaloka";
+  color: #6e0489;
+  margin-left: 20px;
+  font-size: 2.4rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.home p {
+  font-family: "Pavanam";
+  font-size: 20px;
+  color: black;
+  margin-top: -60px;
+  margin-left: 487px;
+  content: center;
+}
+
+.home h2 {
+  font-size: 50px;
+ color: #2e2e2e;
+  font-family: "Scheherazade";
+  font-weight: 100;
+  margin-right: 150px;
+}
+
+.head-two {
+  margin-top: -60px;
+  color: #2e2e2e;
+  font-family: "Scheherazade";
+  font-weight: 100;
+}
+
+.head-three {
+  margin-top: -59px;
+  color: #2e2e2e;
+  font-family: "Scheherazade";
+  font-weight: 100;
+}
+
+.head-four{
+  margin-left: 40px;
+  font-family: "Pavanam";
+  color: black;
+  font-weight: 100;
+}
+
+.circular {
+  
+  width: 350px; 
+  height: 350px; 
+  border-radius: 50%; 
+  background-color: #c7c9fa; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* font-size: 10px; */
+  border: none; 
+  /* position: fixed;  */
+  padding: 0;
+  position: relative;
+  /* position: absolute; */
+  bottom: 350px;
+  left: 800px;
+  margin-bottom: 0;
+}
+
+.circular-two {
+  width: 110px;
+  height: 110px; 
+  border-radius: 50%;
+  background-color: #c7c9fa;
+  /* display: flex; */
+  /* align-items: center;  */
+  /* justify-content: center;  */
+  color: white;
+  /* font-size: 10px;  */
+  /* text-align: center;  */
+  border: none; 
+  position: relative;
+  /* position: absolute; */
+  padding: 0;
+  bottom: 810px;
+  left: 800px;
+  margin-bottom: 0;
+}
+
+.circular-three {
+  width: 45px; 
+  height: 45px; 
+  border-radius: 50%; 
+  background-color: #c7c9fa; 
+  /* display: flex; */
+  /* align-items: center;  */
+  /* justify-content: center;  */
+  color: white; 
+  /* font-size: 10px;  */
+  /* text-align: center;  */
+  border: none; 
+  padding: 0;
+  bottom: 810px;
+  left: 790px;
+  position: relative;
+  /* position: absolute; */
+  margin-bottom: 0;
+}
+
+/**/
+.circular img{
+  width: 80%;
+  border-radius: 50%;
+}
+
+/*icons*/
+
+.links{
+  margin-top: -500px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex: 1 1 1;
+  justify-content: space-around;
+  width: 100%;
+}
+.github,.contact,.gmail{
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'montserrat';
+}
+.git-icon img,.contact-icon img,.gm-icon img{
+  width: 40px;
+}
+.buttons{
+  height: 50px;
+  margin-top:30px;
+  display: flex;
+  justify-content: start;
+}
+
+.download button,.print button{
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  width: 300px;
+  font-family: 'montserrat';
+  border: none;
+}
+.download button{
+  background-color: #C7C9FA;
+  cursor: pointer;
+}
+.print button{
+  background-color: #F6A07A;
+  cursor: pointer;
+}
+
+.dl-and-print{
+  width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+
+@media (max-width: 768) {
+  
+}
